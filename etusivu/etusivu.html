@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="etusivu.css">
+    <title>Welcome to learn English</title>
+</head>
+<body>
+    <div id="welcome-screen">
+        <h1 id="welcome-text">WELCOME TO PLAY!</h1>
+    </div>
+    <header>
+        <h1>Studying English with fun!</h1>
+        <p>Englannin opiskelua hauskasti!</p>
+    </header>
+    <section id="games">
+        <h2>Valitse peli - Choose a game</h2>
+        <div class="game-option" onclick="startGame('wordMatch')">
+            <a href="../hangman/h.html"><img src="hirsipuu.png" alt="Word Match Icon"></a>
+            <p>Hangman - Hirsipuu</p>
+        </div>
+        <div class="game-option" onclick="startGame('wordMatch')">
+            <a href="../kirjoituspeli/index.html"><img src="kirjoituspeli.png" alt="Quiz Icon"></a>
+            <p>Writing game - Kirjoituspeli</p>
+        </div>
+    </section>
+    <section id="description">
+        <h2>Mukana on sanoja</h2>
+        <p>joita on jo opetettu, mutta myös sanoja, joita ei opeteta edes välttämättä yläasteella.</p>
+    </section>
+    <script src="etusivu.js"></script>
+</body>
+</html>

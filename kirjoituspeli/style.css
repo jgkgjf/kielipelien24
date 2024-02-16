@@ -1,0 +1,82 @@
+body { 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	min-height: 50vh; 
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    background-color: rgba(9, 18, 138, 0.877);
+} 
+.root { 
+	font-size: x-large; 
+	color: rgb(0, 0, 0); 
+	background-color: rgb(57, 151, 151); 
+	box-shadow: 0 2px 5px grey; 
+	padding: 0% 5% 1% 5%; 
+	text-align: center; 
+	border-radius: 5px 0; 
+} 
+.title { 
+	border-bottom: 4px dashed; 
+	border-color: white; 
+} 
+input { 
+	font-size: 20px; 
+	padding-left: 10px; 
+	outline: 2px grey; 
+} 
+.foot { 
+	margin-bottom: 0%; 
+	display: flex; 
+	width: 100%; 
+} 
+.foot>button { 
+	width: 48%; 
+	padding: 1%; 
+	margin: 1%; 
+	background-color: rgb(109, 180, 177); 
+	border-radius: 5px; 
+	border-color: rgb(29, 90, 29); 
+	font-size: large; 
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.overlay1 {
+    display: block; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+.overlay-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+}
+.overlay button1 {
+    margin-top: 10px;
+}
