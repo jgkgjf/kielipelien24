@@ -581,7 +581,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
     returnGameButton.addEventListener("click", () => {
        
-        window.location.href = "../etusivu/etusivu.html";
+        window.location.href = "../etusivu/index.html";
     });
 
     initializer(); 

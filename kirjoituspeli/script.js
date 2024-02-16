@@ -143,5 +143,5 @@ function changeCategory() {
 document.getElementById("swapLanguagesButton").addEventListener("click", swapLanguage);
 
 function goHome() {
-    window.location.href = "../etusivu/etusivu.html"; 
+    window.location.href = "../etusivu/index.html"; 
 }
