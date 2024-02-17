@@ -108,7 +108,8 @@
   }
   #newGameButton,
   #nextGameButton,
-  #returnGameButton {
+  #returnGameButton,
+  #returnGameButton1 {
     font-size: 1.25em;
     padding: 0.5em 1em;
     background-color: #8c52ff;

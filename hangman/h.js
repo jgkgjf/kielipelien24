@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const welcomeContainer = document.getElementById("welcome-container");
     const gameContainer = document.querySelector(".container");
     const returnGameButton = document.getElementById("returnGameButton");
-
+    const returnGameButton1 = document.getElementById("returnGameButton1");
     const sanat = {
         colors: ['red', 'blue', 'green', 'black', 'orange', 'yellow', 'green', 'white', 'gray', 'pink', 'beige', 'brown', 'purple', 'violet', 'turquoise'],
         animals: ['elephant', 'giraffe', 'lion', 'tiger', 'monkey', 'kangaroo', 'dog', 'cat', 'fish', 'rabbit', 'hamster', 'pigeon', 'crow', 'owl', 'eagle', 'cow', 'sheep', 'pig', 'horse', 'chicken', 'rooster', 'ant', 'fly', 'spider', 'bee', 'wasp', 'butterfly', 'frog', 'budgie', 'lizard', 'parrot', 'tortoise', 'snake', 'cheetah', 'zebra', 'gorilla', 'panda', 'bear', 'wolf', 'fox', 'swan', 'elk', 'squirrel', 'magpie', 'reindeer', 'snail', 'bird', 'worm', 'deer', 'rat', 'mouse', 'duck', 'penguin', 'bat', 'polar bear', 'hippo'],
@@ -580,6 +580,10 @@ document.addEventListener("DOMContentLoaded", function () {
         
     };
     returnGameButton.addEventListener("click", () => {
+       
+        window.location.href = "../index.html";
+    });
+    returnGameButton1.addEventListener("click", () => {
        
         window.location.href = "../index.html";
     });
