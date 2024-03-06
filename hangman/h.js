@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "the seventh", "the eighth", "the ninth", "the tenth", "the eleventh", "the twelfth", "the thirteenth", "the fourteenth", "the fifteenth", "the sixteenth", "the seventeenth", "the eighteenth", "the nineteenth", 
             "the twentieth", "the twenty-first", "the thirtieth", "the fortieth", "the fiftieth", "the sixtieth", "the seventieth", "the eightieth", "the ninetieth", "the hundredth", "the thousandth"],
         "free time items": ["speakers", "phone", "headphones", "flashlight", "games console", "DVD player", "CD player", "Blu-ray player"],
-        "cleaning equipment": ["vacuum cleaner", "sponge", "mop", "ironing board", "iron", "vacuum cleaner", "broom", "bucket"],
+        "cleaning equipment": ["vacuum cleaner", "sponge", "mop", "ironing board", "iron", "broom", "bucket"],
         sports: ["wrestling", "weightlifting", "walking", "volleyball", "tennis", 
             "swimming", "snowboarding", "skiing", "skateboarding", "scuba diving", 
             "sailing", "running", "rowing", "mountain climbing", "motorsport", "karate", "judo", "jogging", "ice skating", "ice hockey", "riding", 
