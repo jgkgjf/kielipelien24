@@ -825,6 +825,7 @@ const sanat = {
         { "id": 478, suomeksi: "silitysrauta", englanniksi: "iron" },
         { "id": 485, suomeksi: "luuta", englanniksi: "broom" },
         { "id": 486, suomeksi: "ämpäri", englanniksi: "bucket" },
+        { "id": 473, suomeksi: "silityslauta", englanniksi: "ironing board" },
     ],
     sports: [
         { "id": 848, suomeksi: "paini", englanniksi: "wrestling" },
