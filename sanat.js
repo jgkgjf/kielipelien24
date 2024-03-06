@@ -821,7 +821,6 @@ const sanat = {
     "cleaning equipment": [
         { "id": 286, suomeksi: "pölynimuri", englanniksi: "vacuum cleaner" },
         { "id": 471, suomeksi: "moppi", englanniksi: "mop" },
-        { "id": 473, suomeksi: "silityslauta", englanniksi: "ironing board" },
         { "id": 467, suomeksi: "pesusieni", englanniksi: "sponge" },
         { "id": 478, suomeksi: "silitysrauta", englanniksi: "iron" },
         { "id": 480, suomeksi: "imuri", englanniksi: "vacuum cleaner" },
