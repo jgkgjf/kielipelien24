@@ -823,7 +823,6 @@ const sanat = {
         { "id": 471, suomeksi: "moppi", englanniksi: "mop" },
         { "id": 467, suomeksi: "pesusieni", englanniksi: "sponge" },
         { "id": 478, suomeksi: "silitysrauta", englanniksi: "iron" },
-        { "id": 480, suomeksi: "imuri", englanniksi: "vacuum cleaner" },
         { "id": 485, suomeksi: "luuta", englanniksi: "broom" },
         { "id": 486, suomeksi: "ämpäri", englanniksi: "bucket" },
     ],
