@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hardest.css">
+    <title>Valitse oikea käännös</title>
+</head>
+<body>
+    <div class="container">
+        <div id="category-select-container">
+            <label for="category-select">Valitse kategoria:</label>
+            <select id="category-select">
+            </select>
+            <button id="start-btn" class="start-btn btn">Start</button>
+        </div>
+        <div id="question-container" class="hide">
+            <div id="clock-container">
+                <span id="clock"></span>
+            </div>
+            <div id="question">Translate <span id="translated-word"></span> into English.</div>
+            <div id="answer-buttons" class="btn-grid"></div>
+            <div class="foot">
+                <button type="button" id="pause-btn">Pause</button>
+                <button type="button" id="new-game-btn" class="start-btn btn hide">New Game</button>
+                <button onclick="goToEtusivu()" id="page">Takaisin etusivulle</button>
+            </div>
+            <br>
+            <div id="score" class="game-score">Score: 0</div>
+        </div>
+    </div>
+    <div id="pauseOverlay" class="overlay">
+        <div class="overlay-content">
+            <h1>Peli on keskeytetty.</h1>
+            <button type="button" id="continue-btn">CONTINUE</button>
+            <button type="button" id="change-category-btn">CHANGE CATEGORY</button>
+            <button onclick="goToEtusivu1()" id="page1">Takaisin etusivulle</button>
+        </div>
+    </div>
+    <script src="../../sanat.js"></script>
+    <script src="hardest.js"></script>
+</body>
+</html>

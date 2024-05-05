@@ -383,7 +383,7 @@ const sanat = {
         { "id": 337, suomeksi: "huppari", englanniksi: "hoodie" },
         { "id": 339, suomeksi: "kumisaappaat", englanniksi: "wellies" },
         { "id": 340, suomeksi: "kypärä", englanniksi: "helmet" },
-        { "id": 341, suomeksi: "legginsit", englanniksi: "leggings" },
+        { "id": 341, suomeksi: "leggingsit", englanniksi: "leggings" },
         { "id": 342, suomeksi: "lenkkarit", englanniksi: "sneakers" },
         { "id": 343, suomeksi: "lippis", englanniksi: "cap" },
         { "id": 344, suomeksi: "luistimet", englanniksi: "skates" },

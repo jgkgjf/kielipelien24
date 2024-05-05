@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dif.css">
+    <title>Valitse oikea käännös</title>
+</head>
+<body>
+    <div class="container">
+        <div id="category-select-container">
+            <label for="category-select">Valitse kategoria:</label>
+            <select id="category-select">
+            </select>
+        </div>
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid"></div>
+        </div>
+        <div class="controls">
+            <button id="category-menu-btn" class="category-menu-btn btn hide">VALIKKO</button>
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button onclick="goToEtusivu()" id="page">Takaisin etusivulle</button>
+        </div>
+    </div>
+    <script src="../../sanat.js"></script>
+    <script src="dif.js"></script>
+</body>
+</html>
